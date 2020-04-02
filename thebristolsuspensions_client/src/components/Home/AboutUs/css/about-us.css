@@ -1,0 +1,24 @@
+.about-us-banner-image {
+    background-image: url(../../../Images/homepage-about-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*height: 300px;*/
+}
+
+.about-us-text-container {
+    padding: 20px;
+}
+
+.about-us-text {
+    padding: 20px;
+    background-color: rgba(240,240, 240, 0.9);
+}
+
+.about-us {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    position: relative;
+}
