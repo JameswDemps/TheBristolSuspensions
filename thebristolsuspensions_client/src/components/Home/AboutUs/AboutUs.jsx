@@ -13,7 +13,7 @@ export const AboutUs = () => {
                         <h1>
                             {strings.ABOUT_US_TITLE}
                         </h1>
-                        <p>
+                        <p className="about-us-paragraph">
                             {strings.ABOUT_US_DESCRIPTION}
                         </p>
                     </div>

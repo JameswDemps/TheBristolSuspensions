@@ -15,6 +15,10 @@
     background-color: rgba(240,240, 240, 0.9);
 }
 
+.about-us-paragraph {
+    font-size: x-large;
+}
+
 .about-us {
     width: 100%;
     height: auto;
