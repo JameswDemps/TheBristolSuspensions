@@ -11,11 +11,14 @@ export const Banner = () => {
                 // src={require('./Images/homepage-banner.png')}
                 webp={require('../Images/Logo.webp')}
             />
-            <Image
-                className='homepage-banner-image'
-                // src={require('./Images/homepage-banner.png')}
-                webp={require('../Images/homepage-banner.webp')}
-            />
+            {/*<Image*/}
+            {/*    className='homepage-banner-image'*/}
+            {/*    // src={require('./Images/homepage-banner.png')}*/}
+            {/*    webp={require('../Images/homepage-banner.webp')}*/}
+            {/*/>*/}
+            <div className='homepage-banner-image'>
+
+            </div>
         </div>
     )
 }

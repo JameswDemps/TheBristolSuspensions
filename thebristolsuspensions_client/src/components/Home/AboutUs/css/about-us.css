@@ -7,7 +7,9 @@
 }
 
 .about-us-text-container {
-    padding: 20px;
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
 }
 
 .about-us-text {
@@ -25,4 +27,35 @@
     display: flex;
 
     position: relative;
+}
+
+.about-us-latest-video{
+    cursor: pointer;
+    white-space: nowrap;
+    height: 40px;
+    border: 2px solid white;
+    margin: 15% 0 0 calc((100vw - 700px) * 0.5);
+
+    background-color: transparent;
+    color: white;
+    font: italic bold normal 14px/1.4em spinnaker,sans-serif;
+    transition-duration: 0.4s;
+
+}
+
+.about-us-latest-video:hover {
+    background-color: white;
+    color: maroon;
+}
+
+@media only screen and (max-width: 700px) {
+    .about-us-text-container {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .about-us-latest-video{
+        width: auto;
+        margin: 10px;
+    }
+
 }
