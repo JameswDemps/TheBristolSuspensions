@@ -1,6 +1,15 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
 .social-media-container {
+}
+
+.social-media-content {
   display: flex;
   flex-direction: row;
+  width: 950px;
   text-align: center;
   font-size: xx-large;
   font-family: sans-serif;
@@ -9,7 +18,11 @@
   letter-spacing: normal;
 }
 
-.social-media-text-conatiner {
+.social-media-text-container {
+  display: flex;
+  justify-content: center;
+  /* width: 400px; */
+  padding: 50px 100px 20px;
 }
 
 .social-media-facebook-container {
