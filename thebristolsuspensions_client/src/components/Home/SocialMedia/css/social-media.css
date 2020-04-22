@@ -19,10 +19,9 @@
 }
 
 .social-media-text-container {
-  display: flex;
-  justify-content: center;
-  /* width: 400px; */
-  padding: 50px 100px 20px;
+  display: inline-block;
+  width: 300px;
+  padding: 50px 0 20px;
 }
 
 .social-media-facebook-container {
@@ -31,9 +30,25 @@
 
 .social-media-instagram-container {
   width: 55%;
+  background-color: turquoise;
 }
 
 .frame_container_item {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .social-media-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .social-media-facebook-container {
+    width: 100%;
+  }
+
+  .social-media-instagram-container {
+    width: 100%;
+  }
 }

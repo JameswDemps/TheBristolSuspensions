@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./css/social-media.css";
+// import { Instagram } from "./../../Instagram";
 
 export const SocialMedia = () => {
   return (
@@ -11,15 +12,6 @@ export const SocialMedia = () => {
             <div className="social-media-text-container">
               Like The Bristol Suspensions on Facebook
             </div>
-          </div>
-          <div className="social-media-instagram-container">
-            <div className="social-media-text-container">
-              Follow @brisuspensions on Instagram
-            </div>
-          </div>
-        </div>
-        <div className="social-media-content">
-          <div className="social-media-facebook-container">
             <div className="frame_container_item">
               <iframe
                 className="facebook_frame"
@@ -36,12 +28,16 @@ export const SocialMedia = () => {
             </div>
           </div>
           <div className="social-media-instagram-container">
-            <iframe
+            <div className="social-media-text-container">
+              Follow @brisuspensions on Instagram
+            </div>
+            {/* <iframe
               width="320"
               height="440"
               src="http://instagram.com/brisuspensions/embed"
               frameborder="0"
-            ></iframe>
+            ></iframe> */}
+            {/* <Instagram /> */}
           </div>
         </div>
       </div>
