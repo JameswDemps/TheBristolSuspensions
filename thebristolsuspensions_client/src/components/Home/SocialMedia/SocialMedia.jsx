@@ -16,10 +16,10 @@ export const SocialMedia = () => {
               <iframe
                 className="facebook_frame"
                 src={
-                  "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthebristolsuspensions%2F&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=566597080766840"
+                  "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fthebristolsuspensions%2F&tabs=timeline&width=382&height=575&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=566597080766840"
                 }
-                width={500}
-                height={500}
+                width={382}
+                height={575}
                 scrolling="no"
                 frameborder="0"
                 allowTransparency="true"
