@@ -1,0 +1,15 @@
+.Navspace {
+  height: 60px;
+}
+
+.NavBar {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  position: fixed;
+  justify-content: center;
+}
