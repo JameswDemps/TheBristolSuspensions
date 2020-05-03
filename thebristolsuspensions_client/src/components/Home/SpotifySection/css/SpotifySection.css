@@ -1,0 +1,5 @@
+.Spotify-Section-Container {
+  display: flex;
+  flex-direction: row;
+  margin: 100px 0 10px;
+}

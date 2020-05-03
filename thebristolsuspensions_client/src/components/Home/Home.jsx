@@ -7,6 +7,7 @@ import { Banner } from "../Banner";
 import { AboutUs } from "./AboutUs";
 import { SocialMedia } from "./SocialMedia";
 import { CCarousel } from "./Carousel";
+import { SpotifySection } from "./SpotifySection";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
       <AboutUs />
       <SocialMedia />
       <CCarousel />
+      <SpotifySection />
       {/*<picture>*/}
       {/*    <source srcSet={require("../Images/homepage-about-us.webp")} type="image/webp"/>*/}
       {/*    <source srcSet={require("../Images/homepage-about-us.jpg")} type="image/jpeg"/>*/}
