@@ -9,11 +9,14 @@ export const SpotifySection = () => {
   return (
     <div className="spotify-section-container">
       <div className="spotify-section-container-contents">
+        <div className="social-media-spotify-text-container heading-top">
+          Listen to our latest music on Spotify
+        </div>
         <div className="spotify-section-spotify-container">
           <Spotify />
         </div>
         <div className="social-media-spotify-follow-container">
-          <div className="social-media-spotify-text-container">
+          <div className="social-media-spotify-text-container heading-center">
             Listen to our latest music on Spotify
           </div>
           <div className="frame_container_item">
