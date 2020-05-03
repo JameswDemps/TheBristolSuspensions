@@ -1,0 +1,57 @@
+.spotify-section-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 10px;
+}
+
+.spotify-section-container-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.social-media-spotify-follow-container {
+  width: 33%;
+}
+
+.spotify-section-spotify-container {
+  display: flex;
+  justify-content: center;
+  width: 33%;
+}
+
+.spotify-section-album-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-spotify-text-container {
+  /* display: inline-block;
+  width: 300px;
+  padding: 50px 0 20px; */
+
+  text-align: center;
+  font-size: xxx-large;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+@media only screen and (max-width: 900px) {
+  .spotify-section-container-contents {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .social-media-spotify-follow-container {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .spotify-section-spotify-container {
+    width: 100%;
+  }
+}
