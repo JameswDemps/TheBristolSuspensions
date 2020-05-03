@@ -1,0 +1,11 @@
+.spotify-section-container {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 10px;
+}
+
+.spotify-section-container-contents {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+}
