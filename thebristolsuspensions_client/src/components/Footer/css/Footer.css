@@ -1,5 +1,4 @@
 .footer-container {
-  height: 200px;
   background-color: maroon;
   padding: 20px 0;
 
@@ -8,6 +7,7 @@
   font-family: sans-serif;
   line-height: normal;
   letter-spacing: normal;
+  justify-content: center;
 }
 
 .footer-heading-text {
@@ -15,9 +15,25 @@
   font-weight: 300;
 }
 
-.footer-icons {
+.footer-icons-container {
   display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.footer-icons {
   flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  width: 650px;
+}
+
+.footer-icon {
+  width: 14%;
+}
+
+.footer-icon-img {
+  width: 100%;
 }
 
 .footer-trademark {
