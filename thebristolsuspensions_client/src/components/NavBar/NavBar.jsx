@@ -7,7 +7,7 @@ export const NavBar = () => {
     <>
       <div className="NavBar">
         <div className="logo-homelink"></div>
-        <div className="nav-link">HOME</div>
+        <div className="nav-link active">HOME</div>
         <div className="nav-link">ABOUT</div>
         <div className="nav-link">MUSIC</div>
         <div className="nav-link">VIDEOS</div>

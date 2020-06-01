@@ -3,6 +3,7 @@
 }
 
 .NavBar {
+  background-color: white;
   height: 60px;
   width: 100vw;
   display: flex;
@@ -12,4 +13,13 @@
   left: 0; */
   position: fixed;
   justify-content: center;
+  z-index: 10;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.active {
+  color: rgba(106, 24, 36, 1);
 }
