@@ -12,12 +12,13 @@
   top: 0;
   left: 0; */
   position: fixed;
-  justify-content: center;
+  justify-content: space-evenly;
   z-index: 10;
 }
 
-.nav-link {
+.navbar-link {
   color: grey;
+  line-height: 60px;
 }
 
 .active {
