@@ -1,0 +1,40 @@
+.footer-container {
+  background-color: rgba(106, 24, 36, 1);
+  padding: 20px 0;
+
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+  line-height: normal;
+  letter-spacing: normal;
+  justify-content: center;
+}
+
+.footer-heading-text {
+  font-size: xx-large;
+  font-weight: 300;
+}
+
+.footer-icons-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.footer-icons {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  width: 650px;
+}
+
+.footer-icon {
+  width: 14%;
+}
+
+.footer-icon-img {
+  width: 100%;
+}
+
+.footer-trademark {
+}
