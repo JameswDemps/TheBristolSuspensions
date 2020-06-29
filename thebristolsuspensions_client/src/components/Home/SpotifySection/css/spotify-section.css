@@ -27,10 +27,6 @@
 }
 
 .social-media-spotify-text-container {
-  /* display: inline-block;
-  width: 300px;
-  padding: 50px 0 20px; */
-
   text-align: center;
   font-size: xxx-large;
   font-family: sans-serif;
@@ -39,7 +35,22 @@
   letter-spacing: normal;
 }
 
+.social-media-spotify-text-container.heading-center {
+  height: auto;
+  width: auto;
+}
+
+.social-media-spotify-text-container.heading-top {
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 900px) {
+  .spotify-section-container {
+    margin: 50px 0 10px;
+  }
+
   .spotify-section-container-contents {
     flex-direction: column;
     justify-content: center;
@@ -48,10 +59,22 @@
 
   .social-media-spotify-follow-container {
     width: 100%;
-    margin: 50px 0;
+    margin: 20px 0;
   }
 
   .spotify-section-spotify-container {
     width: 100%;
+    padding: 10px 10px 0;
+  }
+
+  .social-media-spotify-text-container.heading-top {
+    height: auto;
+    width: auto;
+  }
+
+  .social-media-spotify-text-container.heading-center {
+    height: 0;
+    width: 0;
+    overflow: hidden;
   }
 }
