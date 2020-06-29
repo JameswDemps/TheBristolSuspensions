@@ -3,6 +3,24 @@ import React from "react";
 import "./css/NavBar.css";
 
 export const NavBar = () => {
+  const aboutList = [
+    {
+      index: 0,
+      title: "ABOUT US",
+      selected: false,
+    },
+    {
+      index: 1,
+      title: "MEMBERS",
+      selected: false,
+    },
+    {
+      index: 2,
+      title: "ALUMNI",
+      selected: false,
+    },
+  ];
+
   return (
     <>
       <div className="NavBar">
