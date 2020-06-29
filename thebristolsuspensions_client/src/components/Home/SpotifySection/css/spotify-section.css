@@ -38,11 +38,11 @@
 .social-media-spotify-text-container.heading-center {
   height: auto;
   width: auto;
+  display: auto;
 }
 
 .social-media-spotify-text-container.heading-top {
-  height: 0;
-  width: 0;
+  display: none;
   overflow: hidden;
 }
 
@@ -70,11 +70,11 @@
   .social-media-spotify-text-container.heading-top {
     height: auto;
     width: auto;
+    display: initial;
   }
 
   .social-media-spotify-text-container.heading-center {
-    height: 0;
-    width: 0;
+    display: none;
     overflow: hidden;
   }
 }
