@@ -7,13 +7,13 @@ export const NavBar = () => {
     <>
       <div className="NavBar">
         <div className="logo-homelink"></div>
-        <div className="navbar-link active">HOME</div>
-        <div className="navbar-link">ABOUT</div>
-        <div className="navbar-link">MUSIC</div>
-        <div className="navbar-link">VIDEOS</div>
-        <div className="navbar-link">UPCOMING EVENTS</div>
-        <div className="navbar-link">FRINGE</div>
-        <div className="navbar-link">CONTACT</div>
+        <button className="navbar-link active">HOME</button>
+        <button className="navbar-link">ABOUT</button>
+        <button className="navbar-link">MUSIC</button>
+        <button className="navbar-link">VIDEOS</button>
+        <button className="navbar-link">UPCOMING EVENTS</button>
+        <button className="navbar-link">FRINGE</button>
+        <button className="navbar-link">CONTACT</button>
       </div>
       <div className="Navspace" />
     </>

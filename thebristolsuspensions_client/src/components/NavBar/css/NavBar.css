@@ -17,8 +17,16 @@
 }
 
 .navbar-link {
+  background-color: white;
   color: grey;
-  line-height: 60px;
+  text-align: center;
+  width: calc(100% / 7);
+  border: none;
+}
+
+.navbar-link:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(106, 24, 36, 1);
 }
 
 .active {
