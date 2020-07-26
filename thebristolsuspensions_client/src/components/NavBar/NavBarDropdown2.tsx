@@ -1,15 +1,16 @@
 import React, { Component, useEffect, useState, useRef } from "react";
 
-interface NavBarDropdownProps {
-  value: String;
-  option: Array<String>;
-  placeholder: String;
-  onChange: void;
+interface NavBarDropdownTsxProps {
+  value: string;
+  options: Array<string>;
+  placeholder: string;
+  onChange: (String: string) => void;
 }
 
-class NavBarDropdown extends Component<NavBarDropdownProps> {
+class NavBarDropdownTsx extends Component<NavBarDropdownTsxProps> {
   render() {
     let placeholder = "Select";
+    const { onChange, options, value } = this.props;
     const node: NonNullable<any> = useRef();
 
     const [open, setOpen] = useState(false);
@@ -58,4 +59,4 @@ class NavBarDropdown extends Component<NavBarDropdownProps> {
   }
 }
 
-export default NavBarDropdown;
+export default NavBarDropdownTsx;
