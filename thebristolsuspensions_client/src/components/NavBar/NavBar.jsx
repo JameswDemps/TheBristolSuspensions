@@ -26,7 +26,9 @@ export const NavBar = () => {
     <>
       <div className="NavBar">
         <div className="logo-homelink"></div>
-        <button className="navbar-link active">HOME</button>
+        <a href="#">
+          <button className="navbar-link active">HOME</button>
+        </a>
         {/* <NavBarDropdown
           className="navbar-link"
           placeholder="ABOUT"
@@ -34,12 +36,22 @@ export const NavBar = () => {
           // onChange={(v) => setVegetable(v)}
           options={["Tomato", "Cucumber", "Potato"]}
         ></NavBarDropdown> */}
-        <NavBarDropdown></NavBarDropdown>
-        <button className="navbar-link">MUSIC</button>
-        <button className="navbar-link">VIDEOS</button>
-        <button className="navbar-link">UPCOMING EVENTS</button>
-        <button className="navbar-link">FRINGE</button>
-        <button className="navbar-link">CONTACT</button>
+        <NavBarDropdown />
+        <a href="#music">
+          <button className="navbar-link">MUSIC</button>
+        </a>
+        <a href="#videos">
+          <button className="navbar-link">VIDEOS</button>
+        </a>
+        <a href="#upcoming-events">
+          <button className="navbar-link">UPCOMING EVENTS</button>
+        </a>
+        <a href="#fringe">
+          <button className="navbar-link">FRINGE</button>
+        </a>
+        <a href="#contact">
+          <button className="navbar-link">CONTACT</button>
+        </a>
       </div>
       <div className="Navspace" />
     </>

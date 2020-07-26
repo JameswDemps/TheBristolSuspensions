@@ -3,25 +3,28 @@
   height: 150px;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  display: flex;
 }
 
 .Carousel-Item {
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   margin: 0;
   padding: 0;
   text-align: center;
-  line-height: 100%;
+  /* line-height: 100%; */
   position: absolute;
   color: white;
 }
 
 .Carousel-Item-Text {
-  line-height: 150px;
+  /* line-height: 150px; */
 }
 
 .carousel-inner {
-  height: 100%;
+  /* align-self: center; */
+  /* height: 100%; */
 }
 
 /* ------------------------------------------------ */
