@@ -1,0 +1,55 @@
+.fringe {
+  display: flex;
+  justify-content: center;
+}
+
+.fringe-poster-image {
+  width: 100%;
+}
+
+.fringe-content {
+  display: flex;
+  flex-direction: row;
+  width: 950px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fringe-text-container {
+  display: inline-block;
+  width: 300px;
+  padding: 50px 0 20px;
+}
+
+.fringe-text {
+  width: 45%;
+}
+
+.fringe-poster {
+  width: 55%;
+  background-color: turquoise;
+}
+
+.frame_container_item {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .fringe-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fringe-text {
+    width: 100%;
+  }
+
+  .fringe-poster {
+    width: 100%;
+  }
+}
