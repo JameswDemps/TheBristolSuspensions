@@ -17,11 +17,14 @@ export const AboutUs = () => {
               </p>
             </div>
           </div>
-          <div className="about-us-button-container">
+          <a
+            className="about-us-button-container"
+            href="https://www.youtube.com/channel/UC64I7Ne7m-ddyCvNxcdfwKw"
+          >
             <button className="about-us-latest-video">
               Watch our latest live video!
             </button>
-          </div>
+          </a>
         </div>
       </div>
     </>

@@ -2,7 +2,6 @@ import React from "react";
 
 import Image from "react-image-webp";
 
-// import "./css/about-us.css";
 import { Banner } from "../Banner";
 import { AboutUs } from "./AboutUs";
 import { SocialMedia } from "./SocialMedia";

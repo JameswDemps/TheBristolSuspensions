@@ -26,30 +26,23 @@ export const NavBar = () => {
     <>
       <div className="NavBar">
         <div className="logo-homelink"></div>
-        <a href="#">
+        <a href="/">
           <button className="navbar-link active">HOME</button>
         </a>
-        {/* <NavBarDropdown
-          className="navbar-link"
-          placeholder="ABOUT"
-          value={3}
-          // onChange={(v) => setVegetable(v)}
-          options={["Tomato", "Cucumber", "Potato"]}
-        ></NavBarDropdown> */}
         <NavBarDropdown />
-        <a href="#music">
+        <a href="https://open.spotify.com/artist/29J0P5akUKvNuV3KsPDmLZ">
           <button className="navbar-link">MUSIC</button>
         </a>
-        <a href="#videos">
+        <a href="https://www.youtube.com/channel/UC64I7Ne7m-ddyCvNxcdfwKw">
           <button className="navbar-link">VIDEOS</button>
         </a>
-        <a href="#upcoming-events">
+        <a href="https://www.facebook.com/thebristolsuspensions/events/">
           <button className="navbar-link">UPCOMING EVENTS</button>
         </a>
-        <a href="#fringe">
+        <a href="/fringe">
           <button className="navbar-link">FRINGE</button>
         </a>
-        <a href="#contact">
+        <a href="/contact">
           <button className="navbar-link">CONTACT</button>
         </a>
       </div>

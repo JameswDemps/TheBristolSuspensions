@@ -18,13 +18,13 @@ export const NavBarDropdown = () => {
       </button>
       {isOpen && (
         <>
-          <a href="#about-us" className="navbar-link-dropdown-item">
+          <a href="/about/about-us" className="navbar-link-dropdown-item">
             <button className="navbar-link">ABOUT US</button>
           </a>
-          <a href="#members" className="navbar-link-dropdown-item">
+          <a href="/about/members" className="navbar-link-dropdown-item">
             <button className="navbar-link">MEMBERS</button>
           </a>
-          <a href="#alumni" className="navbar-link-dropdown-item">
+          <a href="/about/alumni" className="navbar-link-dropdown-item">
             <button className="navbar-link">ALUMNI</button>
           </a>
         </>
