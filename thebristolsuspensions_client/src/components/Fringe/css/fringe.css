@@ -1,6 +1,12 @@
 .fringe {
   display: flex;
   justify-content: center;
+  background-color: goldenrod;
+  background-image: radial-gradient(
+    farthest-corner at 50% 55%,
+    gold,
+    sandybrown
+  );
 }
 
 .fringe-poster-image {
@@ -10,11 +16,10 @@
 .fringe-content {
   display: flex;
   flex-direction: row;
-  width: 950px;
+  width: 1100px;
   text-align: center;
   font-size: xx-large;
   font-family: sans-serif;
-  font-weight: 300;
   line-height: normal;
   letter-spacing: normal;
 }
@@ -26,12 +31,12 @@
 }
 
 .fringe-text {
-  width: 45%;
+  font-family: sans-serif;
+  width: 55%;
 }
 
 .fringe-poster {
-  width: 55%;
-  background-color: turquoise;
+  width: 45%;
 }
 
 .frame_container_item {
@@ -39,14 +44,61 @@
   justify-content: center;
 }
 
-@media only screen and (max-width: 950px) {
+.fringe-paragraph-container {
+  padding: 20px;
+  margin: 20px;
+  font-size: medium;
+  border: 1px solid grey;
+  border-radius: 7px;
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.fringe-funder-link {
+}
+
+.fringe-funder-link:hover {
+  text-decoration: none;
+}
+
+.fringe-funder-button {
+  cursor: pointer;
+  white-space: nowrap;
+  height: 40px;
+  border: 2px solid white;
+
+  background-color: maroon;
+  color: white;
+  font: italic bold normal 14px/1.4em spinnaker, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.fringe-funder-button:hover {
+  border-color: maroon;
+  background-color: white;
+  color: maroon;
+}
+
+@media only screen and (max-width: 1100px) {
   .fringe-content {
     flex-direction: column;
     width: 100%;
   }
 
-  .fringe-text {
+  .fringe-funder-link {
     width: 100%;
+  }
+
+  .fringe-funder-button {
+    width: 100%;
+  }
+
+  .fringe-text {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .fringe-paragraph-container {
+    margin: 0;
   }
 
   .fringe-poster {

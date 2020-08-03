@@ -7,21 +7,23 @@ import { strings } from "../strings";
 export const AboutUs = () => {
   return (
     <>
-      <div className="about-us-banner-image" image="./location">
-        <div className="about-us-container">
-          <div className="about-us-text-container">
-            <div className="about-us-text">
-              <h1 className="about-us-text-header">{strings.ABOUT_US_TITLE}</h1>
-              <p className="about-us-paragraph">
+      <div className="home-about-us-banner-image" image="./location">
+        <div className="home-about-us-container">
+          <div className="home-home-about-us-text-container">
+            <div className="home-about-us-text">
+              <h1 className="home-about-us-text-header">
+                {strings.ABOUT_US_TITLE}
+              </h1>
+              <p className="home-about-us-paragraph">
                 {strings.ABOUT_US_DESCRIPTION}
               </p>
             </div>
           </div>
           <a
-            className="about-us-button-container"
+            className="home-about-us-button-container"
             href="https://www.youtube.com/channel/UC64I7Ne7m-ddyCvNxcdfwKw"
           >
-            <button className="about-us-latest-video">
+            <button className="home-about-us-latest-video">
               Watch our latest live video!
             </button>
           </a>
