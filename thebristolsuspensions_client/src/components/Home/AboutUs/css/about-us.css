@@ -42,6 +42,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  margin: 0 0 0 80px;
 }
 
 .home-about-us-button-container:hover {
@@ -103,6 +104,7 @@
   }
   .home-about-us-button-container {
     width: 100%;
+    margin: 0;
   }
   .home-about-us-latest-video {
     width: 100%;
