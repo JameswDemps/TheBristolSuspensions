@@ -9,7 +9,7 @@ export const AboutUs = () => {
     <>
       <div className="home-about-us-banner-image" image="./location">
         <div className="home-about-us-container">
-          <div className="home-home-about-us-text-container">
+          <div className="home-about-us-text-container">
             <div className="home-about-us-text">
               <h1 className="home-about-us-text-header">
                 {strings.ABOUT_US_TITLE}

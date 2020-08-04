@@ -1,5 +1,4 @@
 .about-us {
-  justify-content: center;
 }
 
 .about-us-container {
@@ -7,4 +6,53 @@
 }
 
 .about-us-banner {
+  background-image: url(../../../Images/aboutusbanner.webp);
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  color: white;
+  height: 350px;
+  opacity: 95%;
+  width: 100%;
+}
+
+.about-us-header {
+  z-index: 1;
+  font-size: 63px;
+  font-weight: bold;
+  text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px,
+    rgba(0, 0, 0, 0.6) -1px -1px 1px;
+  width: 100%;
+}
+
+.about-us-banner-overlay {
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.about-us-text-container {
+  justify-content: center;
+  display: flex;
+  background-color: rgba(235, 235, 235);
+}
+
+.about-us-text {
+  padding: 2em 2em 0 2em;
+  width: 950px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-us-banner {
+    height: calc((100vw / 1000) * 350);
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .about-us-text {
+    width: 100%;
+  }
 }

@@ -1,6 +1,8 @@
 export const strings = {
-  FRINGE_TITLE:
-    "The Bristol Suspensions are returning to The Fringe for a fifth consecutive year!",
-  FRINGE_PARAGRAPH:
-    "Jury take your seats, the 5th Annual Suspensions’ Court is now in session! After a whole year of accumulating drama,  these feisty students have a chance to pour out their woes, raise burning issues and confess their utmost desires. From the (relative) safety of the witness box, you will observe the most serious aca-crimes such as mic theft, choreography fraud and vocal vandalism. The fate of the Suspensions lies in your hands. Presented in the form of an a cappella jukebox musical, Aca-rrested: Behind Bars promises to be a hybrid like no other, with an original script, music arranged by our own members and side-splitting scenarios based on real aca-vents. With a hilarious yet moving storyline to tie it all together, the Suspensions promise a triple-threat show of the highest order.",
+  ABOUT_US_HEADING: "About Us",
+  ABOUT_US_TEXT: [
+    "The Bristol Suspensions are a mixed a cappella group from the University of Bristol, and are Voice Festival 2016 Champions (in only its second year of existence).",
+    "Formed in October 2014, the group has cemented its status as an established group in the UK A Cappella scene. Now in their fifth year, they have already recorded two albums, released three music videos and many live videos, been on the radio four times, placed at the ICCA Semifinals, had two official sell out Fringe runs, toured North-Eastern USA, received awards for Outstanding Arrangement, Choreography and Vocal Percussion, appeared on BBC One's Pitch Battle and won The Voice Festival UK.",
+    "We perform regularly at both private and public functions. Check out our videos page to see more from us, and head to our contact page if you want to find out more or enquire about booking us for an event.",
+  ],
 };
