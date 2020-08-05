@@ -6,14 +6,21 @@
 }
 
 .about-us-banner {
-  background-image: url(../../../Images/aboutusbanner.webp);
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
   color: white;
-  height: 350px;
+  height: 300px;
   opacity: 95%;
   width: 100%;
+}
+
+.about-us-banner-heading-background {
+  background-image: url(../../../Images/aboutusbanner.webp);
+}
+
+.about-us-banner-awards-background {
+  background-image: url(../../../Images/awards-banner-image.webp);
 }
 
 .about-us-header {
@@ -47,7 +54,7 @@
 
 @media only screen and (max-width: 1000px) {
   .about-us-banner {
-    height: calc((100vw / 1000) * 350);
+    height: calc((100vw / 1000) * 300);
   }
 }
 
@@ -55,4 +62,32 @@
   .about-us-text {
     width: 100%;
   }
+}
+
+.wrapper {
+  height: 100vh;
+  perspective: 1px;
+  /* transform-style: preserve-3d; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.snow-wrapper {
+  background-image: url(../../../Images/aboutusbanner.webp);
+  height: 200vh;
+  /* background: radial-gradient(
+    farthest-corner at 30vw 20vh,
+    #7397a1 1%,
+    #3f2c41 100%
+  ); */
+  /* transform-style: preserve-3d; */
+  z-index: -1;
+}
+.content-wrapper {
+  opacity: 0.9;
+  z-index: 1;
+  background: #aaa;
+  padding: 5vh 5vw;
+  top: 50vh;
+  position: absolute;
+  transform: translateZ(-1px) scale(2);
 }
