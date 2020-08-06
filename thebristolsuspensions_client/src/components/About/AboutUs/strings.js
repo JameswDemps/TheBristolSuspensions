@@ -10,6 +10,11 @@ export const strings = {
     {
       EMOJI: "🏆",
       NAME: "First Place",
+      CONTEXT: "Unlock Your Talent, Vocal/Choral Group Category 18+ 2020",
+    },
+    {
+      EMOJI: "🏆",
+      NAME: "First Place",
       CONTEXT: "Irish International A Cappella Festival 2019",
     },
     {
