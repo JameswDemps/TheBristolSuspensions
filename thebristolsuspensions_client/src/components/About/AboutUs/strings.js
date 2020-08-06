@@ -113,6 +113,11 @@ export const strings = {
       CONTEXT: "ICCA UK Semi-Final 2016",
     },
     {
+      EMOJI: "🏆",
+      NAME: "Third Place",
+      CONTEXT: "ICCA South West Quarter-Final 2016",
+    },
+    {
       EMOJI: "⭐",
       NAME: "Outstanding Arrangement",
       CONTEXT: "ICCA South West Quarter-Final 2016",
