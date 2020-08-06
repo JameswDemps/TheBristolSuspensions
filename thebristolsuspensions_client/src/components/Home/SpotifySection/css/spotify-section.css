@@ -43,7 +43,6 @@
 
 .social-media-spotify-text-container.heading-top {
   display: none;
-  overflow: hidden;
 }
 
 @media only screen and (max-width: 900px) {
@@ -75,6 +74,5 @@
 
   .social-media-spotify-text-container.heading-center {
     display: none;
-    overflow: hidden;
   }
 }

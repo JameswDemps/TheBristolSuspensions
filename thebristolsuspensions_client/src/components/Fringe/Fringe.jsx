@@ -12,7 +12,9 @@ export const Fringe = () => {
         <div className="fringe-text">
           <h1>{strings.FRINGE_TITLE}</h1>
           <div className="fringe-paragraph-container">
-            <p className="fringe-paragraph">{strings.FRINGE_PARAGRAPH}</p>
+            <p className="fringe-paragraph">
+              <small>{strings.FRINGE_PARAGRAPH}</small>
+            </p>
           </div>
           <a
             className="fringe-funder-link"

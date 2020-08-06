@@ -9,6 +9,11 @@ export const strings = {
   ABOUT_US_AWARDS: [
     {
       EMOJI: "🏆",
+      NAME: "First Place",
+      CONTEXT: "Irish International A Cappella Festival 2019",
+    },
+    {
+      EMOJI: "🏆",
       NAME: "Second Place",
       CONTEXT: "ICCA UK Final 2019",
     },
@@ -26,6 +31,11 @@ export const strings = {
       EMOJI: "🏆",
       NAME: "Quarter-Final Champion",
       CONTEXT: "ICCA Birmingham Quarter-Final 2019",
+    },
+    {
+      EMOJI: "🌟",
+      NAME: "Official Sell Out Fringe Run",
+      CONTEXT: "Edinburgh Fringe Festival 2018",
     },
     {
       EMOJI: "🏆",
@@ -80,7 +90,7 @@ export const strings = {
     {
       EMOJI: "🌟",
       NAME: "Official Sell Out Fringe Run",
-      CONTEXT: "Edinburgh Fringe Festival 201",
+      CONTEXT: "Edinburgh Fringe Festival 2016",
     },
     {
       EMOJI: "🏆",
