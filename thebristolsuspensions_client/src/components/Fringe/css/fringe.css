@@ -66,16 +66,16 @@
   height: 40px;
   border: 2px solid white;
 
-  background-color: maroon;
+  background-color: rgba(106, 24, 36, 1);
   color: white;
   font: italic bold normal 14px/1.4em spinnaker, sans-serif;
   transition-duration: 0.4s;
 }
 
 .fringe-funder-button:hover {
-  border-color: maroon;
+  border-color: rgba(106, 24, 36, 1);
   background-color: white;
-  color: maroon;
+  color: rgba(106, 24, 36, 1);
 }
 
 @media only screen and (max-width: 1100px) {
