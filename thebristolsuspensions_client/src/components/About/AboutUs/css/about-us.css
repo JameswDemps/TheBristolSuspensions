@@ -24,12 +24,19 @@
 }
 
 .about-us-header {
-  z-index: 1;
+  position: absolute;
   font-size: 63px;
   font-weight: bold;
   text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px,
     rgba(0, 0, 0, 0.6) -1px -1px 1px;
   width: 100%;
+}
+
+.about-us-credit-link {
+  align-self: flex-start;
+  color: white;
+  margin-top: 1px;
+  margin-left: 3%;
 }
 
 .about-us-banner-overlay {

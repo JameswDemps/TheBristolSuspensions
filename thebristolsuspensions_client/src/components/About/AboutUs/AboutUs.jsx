@@ -9,6 +9,12 @@ export const AboutUs = () => {
     <div className="about-us">
       <div className="about-us-banner about-us-banner-heading-background">
         <div className="about-us-banner-overlay">
+          <a
+            className="about-us-credit-link"
+            href="https://www.webbstreetstudios.co.uk/"
+          >
+            {strings.ABOUT_US_CREDIT_LINK}
+          </a>
           <h1 className="about-us-header">{strings.ABOUT_US_HEADING}</h1>
         </div>
       </div>
