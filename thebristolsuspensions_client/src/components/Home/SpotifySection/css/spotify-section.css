@@ -38,12 +38,11 @@
 .social-media-spotify-text-container.heading-center {
   height: auto;
   width: auto;
+  display: auto;
 }
 
 .social-media-spotify-text-container.heading-top {
-  height: 0;
-  width: 0;
-  overflow: hidden;
+  display: none;
 }
 
 @media only screen and (max-width: 900px) {
@@ -70,11 +69,10 @@
   .social-media-spotify-text-container.heading-top {
     height: auto;
     width: auto;
+    display: initial;
   }
 
   .social-media-spotify-text-container.heading-center {
-    height: 0;
-    width: 0;
-    overflow: hidden;
+    display: none;
   }
 }

@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,17 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 100%;
+  font: normal normal normal 22px/1.4em raleway, sans-serif;
+}
+
+strong {
+  color: rgba(106, 24, 36);
 }

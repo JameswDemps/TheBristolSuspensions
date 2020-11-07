@@ -1,0 +1,107 @@
+.fringe {
+  display: flex;
+  justify-content: center;
+  background-color: goldenrod;
+  background-image: radial-gradient(
+    farthest-corner at 50% 55%,
+    gold,
+    sandybrown
+  );
+}
+
+.fringe-poster-image {
+  width: 100%;
+}
+
+.fringe-content {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.fringe-text-container {
+  display: inline-block;
+  width: 300px;
+  padding: 50px 0 20px;
+}
+
+.fringe-text {
+  font-family: sans-serif;
+  width: 55%;
+}
+
+.fringe-poster {
+  width: 45%;
+}
+
+.frame_container_item {
+  display: flex;
+  justify-content: center;
+}
+
+.fringe-paragraph-container {
+  padding: 20px;
+  margin: 20px;
+  font-size: medium;
+  border: 1px solid grey;
+  border-radius: 7px;
+  background-color: rgba(240, 240, 240, 0.9);
+}
+
+.fringe-funder-link {
+}
+
+.fringe-funder-link:hover {
+  text-decoration: none;
+}
+
+.fringe-funder-button {
+  cursor: pointer;
+  white-space: nowrap;
+  height: 40px;
+  border: 2px solid white;
+
+  background-color: rgba(106, 24, 36, 1);
+  color: white;
+  font: italic bold normal 14px/1.4em spinnaker, sans-serif;
+  transition-duration: 0.4s;
+}
+
+.fringe-funder-button:hover {
+  border-color: rgba(106, 24, 36, 1);
+  background-color: white;
+  color: rgba(106, 24, 36, 1);
+}
+
+@media only screen and (max-width: 1100px) {
+  .fringe-content {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .fringe-funder-link {
+    width: 100%;
+  }
+
+  .fringe-funder-button {
+    width: 100%;
+  }
+
+  .fringe-text {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .fringe-paragraph-container {
+    margin: 0;
+  }
+
+  .fringe-poster {
+    width: 100%;
+  }
+}
