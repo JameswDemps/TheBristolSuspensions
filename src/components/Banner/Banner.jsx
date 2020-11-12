@@ -9,7 +9,7 @@ export const Banner = () => {
       <Image
         className="logo"
         // src={require('./Images/homepage-banner.png')}
-        webp={require("../Images/Logo.webp")}
+        webp={require('@Url.Content("../Images/Logo.webp")'}
       />
       {/*<Image*/}
       {/*    className='homepage-banner-image'*/}
