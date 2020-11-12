@@ -31,6 +31,3 @@ steps:
     #parallel: false # Optional
     #parallelCount: # Optional
     #fileCopyOptions: #Optional
-
-trigger:
-- master
