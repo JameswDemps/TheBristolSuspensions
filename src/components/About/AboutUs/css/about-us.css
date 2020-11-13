@@ -8,7 +8,7 @@
 .about-us-banner {
   background-position: center;
   background-size: cover;
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
   color: white;
   height: 300px;
   opacity: 95%;
