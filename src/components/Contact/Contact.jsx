@@ -9,10 +9,8 @@ export const Contact = () => {
   return (
     <div className="contact">
       <div className="contact-container">
-        <div className="contact-banner contact-banner-heading-background">
-          <div className="contact-banner-overlay">
-            <h1 className="contact-header">{strings.CONTACT_HEADING}</h1>
-          </div>
+        <div className="contact-banner">
+          <h1 className="contact-header">{strings.CONTACT_HEADING}</h1>
         </div>
         <div className="contact-text">
           {strings.CONTACT_TEXT.map((item) => (
