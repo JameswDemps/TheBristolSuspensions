@@ -6,7 +6,6 @@ import Image from "react-image-webp";
 export const Banner = () => {
   return (
     <div className="homepage-banner">
-      <img src={require("../Images/homepage-about-us.jpg")}></img>
       <Image
         className="logo"
         // src={require("../Images/homepage-about-us.jpg")}
