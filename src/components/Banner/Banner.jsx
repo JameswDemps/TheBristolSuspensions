@@ -10,12 +10,12 @@ export const Banner = () => {
       <Image
         className="logo"
         // src={require("../Images/homepage-about-us.jpg")}
-        webp={require("../Images/Logo.webp")}
+        webp={require("../Images/Logo.png")}
       />
       {/*<Image*/}
       {/*    className='homepage-banner-image'*/}
       {/*    // src={require('./Images/homepage-banner.png')}*/}
-      {/*    webp={require('../Images/homepage-banner.webp')}*/}
+      {/*    webp={require('../Images/homepage-banner.png')}*/}
       {/*/>*/}
       <div className="homepage-banner-image"></div>
     </div>

@@ -35,7 +35,7 @@ export const SpotifySection = () => {
           <Image
             // className="logo"
             // src={require('./Images/homepage-banner.png')}
-            webp={require("../../Images/Testament-Final.webp")}
+            webp={require("../../Images/Testament-Final.png")}
             // style={{ width: "33%", height: "33%" }}
             width="300px"
             height="300px"

@@ -29,7 +29,7 @@ export const Fringe = () => {
           <Image
             className="fringe-poster-image"
             // src={require('./Images/homepage-banner.png')}
-            webp={require("../Images/poster.webp")}
+            webp={require("../Images/poster.png")}
           />
         </div>
       </div>
