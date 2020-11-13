@@ -41,24 +41,6 @@ export const AboutUs = () => {
           ))}
         </div>
       </div>
-      <div className="wrapper">
-        <div className="snow-wrapper">
-          <div className="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. .... ....
-              Donec in justo eu ligula semper consequat sed a risus.
-            </p>
-          </div>
-        </div>
-        <div className="content-wrapper">
-          <div className="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. .... ....
-              Donec in justo eu ligula semper consequat sed a risus.
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
