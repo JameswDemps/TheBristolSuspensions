@@ -10,15 +10,15 @@
 
 .contact-banner {
   background-image: url(../../Images/contact-banner.png);
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-attachment: scroll; */
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
   color: white;
   align-items: center;
   display: flex;
   /* background-color: rgba(0, 0, 0, 0.3); */
   height: 300px;
-  opacity: 95%;
+  /* opacity: 95%; */
   width: 100%;
 }
 
