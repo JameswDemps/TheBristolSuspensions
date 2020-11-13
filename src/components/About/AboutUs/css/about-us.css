@@ -16,11 +16,11 @@
 }
 
 .about-us-banner-heading-background {
-  background-image: url(../../../Images/aboutusbanner.webp);
+  background-image: url(../../../Images/aboutusbanner.png);
 }
 
 .about-us-banner-awards-background {
-  background-image: url(../../../Images/awards-banner-image.webp);
+  background-image: url(../../../Images/awards-banner-image.png);
 }
 
 .about-us-header {
@@ -79,7 +79,7 @@
   overflow-y: auto;
 }
 .snow-wrapper {
-  background-image: url(../../../Images/aboutusbanner.webp);
+  background-image: url(../../../Images/aboutusbanner.png);
   height: 200vh;
   /* background: radial-gradient(
     farthest-corner at 30vw 20vh,

@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   justify-content: center;
-  background-image: url(../../Images/bridge-background.webp);
+  background-image: url(../../Images/bridge-background.png);
 }
 
 .contact-container {
@@ -19,7 +19,7 @@
 }
 
 .contact-banner-heading-background {
-  background-image: url(../../Images/contact-banner.webp);
+  background-image: url(../../Images/contact-banner.png);
 }
 
 .contact-header {
