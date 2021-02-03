@@ -30,4 +30,4 @@ jobs:
       # This deploys the newly created build to S3 bucket <bucket-name> 
       # (replace <bucket-name> with the name of your S3 bucket. Mine is s3-github-actions)
       - name: Deploy app build to S3 bucket
-        run: aws s3 sync ./dist/ s3://<bucket-name> --delete
+        run: aws s3 sync ./dist/ s3://bristol-suspensions-test --delete
