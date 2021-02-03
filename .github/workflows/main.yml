@@ -1,0 +1,33 @@
+# We define the name of this action. This will be used to identify the action amid may others you may have
+name: s3-depl
+
+# We define trigger with on : push also the branch. This workflow will run anytime you push code to the master branch
+on:
+  push:
+    branches:
+      - master
+
+# Workflow run is made up of one or more jobs and they run in parallel by default
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # A job contains a sequence of tasks called steps. Steps can run commands, run setup tasks, 
+    # or run action in your repository and each step starts either with a uses: or a name:
+    steps:
+      # This action checks-out your repository, so your workflow can access it
+      - uses: actions/checkout@v2
+      - name: Configure AWS Credentials
+        # This configures AWS credentials and region environment variables for use in other GitHub Actions
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+      # This step block installs the node packages and runs the build in the package.json file, 
+      # which creates a dist folder in the root directory
+      - name: Build React App
+        run: npm install && npm run build
+      # This deploys the newly created build to S3 bucket <bucket-name> 
+      # (replace <bucket-name> with the name of your S3 bucket. Mine is s3-github-actions)
+      - name: Deploy app build to S3 bucket
+        run: aws s3 sync ./dist/ s3://<bucket-name> --delete
