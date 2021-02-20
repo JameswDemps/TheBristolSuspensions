@@ -14,7 +14,7 @@ export const Home = () => {
       <Banner />
       <AboutUs />
       <SocialMedia />
-      <CCarousel />
+      {/* <CCarousel /> */}
       <SpotifySection />
     </>
   );

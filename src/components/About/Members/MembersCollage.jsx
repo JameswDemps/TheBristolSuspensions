@@ -15,9 +15,7 @@ export const MembersCollage = () => {
               src={require(`../../Images/Members/${item.IMAGE_NAME}`)}
             />
           </div>
-          <p className="members-text">
-            <span>{`${item.NAME} - ${item.PART}`}</span>
-          </p>
+          <p className="members-text">{`${item.NAME} - ${item.PART}`}</p>
         </div>
       ))}
     </div>

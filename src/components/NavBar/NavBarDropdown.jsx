@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Arrow from "../Images/svg/arrow.svg";
 
 import "./css/NavBar.css";
 
@@ -14,7 +15,7 @@ export const NavBarDropdown = () => {
   return (
     <div className={"navbar-link-dropdown" + isActive}>
       <button className={"navbar-link" + isActive} onClick={toggleIsOpen}>
-        ABOUT
+        ABOUT <img src={Arrow} height="15px" width="15px" />
       </button>
       {isOpen && (
         <>
