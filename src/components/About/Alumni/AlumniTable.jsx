@@ -57,12 +57,10 @@ const columns = [
 
 export const AlumniTable = () => {
   return (
-    // <div className="members-container">
     <ReactCollapsingTable
       rowSize={alumniInfo.length}
       rows={rows}
       columns={columns}
     />
-    // </div>
   );
 };
