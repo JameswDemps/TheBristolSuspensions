@@ -5,7 +5,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2015",
     VOICE_PART: "Alto",
     COURSE: "MA English",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Lucy Harries",
@@ -13,7 +13,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2015",
     VOICE_PART: "Soprano",
     COURSE: "French and Italian",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Mhairi Angus",
@@ -21,7 +21,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2015",
     VOICE_PART: "Soprano",
     COURSE: "Theatre and English",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "George Bracegirdle",
@@ -29,7 +29,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2015",
     VOICE_PART: "Tenor",
     COURSE: "Veterinary Science",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Eve Robertson-Waters",
@@ -37,7 +37,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Soprano",
     COURSE: "Medicine",
-    POSITION: "Founder",
+    POSITION: "Founder"
   },
   {
     NAME: "Aliak Bedirian",
@@ -45,7 +45,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Alto",
     COURSE: "Music",
-    POSITION: "Musical Director (2015-2016)",
+    POSITION: "Musical Director (2015-2016)"
   },
   {
     NAME: "Gemma Davies",
@@ -53,7 +53,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Alto",
     COURSE: "English and Classical Studies",
-    POSITION: "Secretary (2015-2016)",
+    POSITION: "Secretary (2015-2016)"
   },
   {
     NAME: "Chris Georgiou",
@@ -61,7 +61,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Bass",
     COURSE: "Music",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Masheyr Devaser",
@@ -69,7 +69,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Tenor",
     COURSE: "Mechanical Engineering",
-    POSITION: "Marketing Manager (2015-2016)",
+    POSITION: "Marketing Manager (2015-2016)"
   },
   {
     NAME: "Rohan Garwood",
@@ -77,7 +77,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Tenor",
     COURSE: "German and French",
-    POSITION: "Social Sec (2015-2016)",
+    POSITION: "Social Sec (2015-2016)"
   },
   {
     NAME: "Harry Loble",
@@ -85,7 +85,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Bass",
     COURSE: "Music",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Scott Lechleiter",
@@ -93,7 +93,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "VP",
     COURSE: "Biochemistry",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Bea Paterson-Achenbach",
@@ -101,7 +101,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Alto",
     COURSE: "English Literature and Philosophy",
-    POSITION: "Tour Manager (2015-2016)",
+    POSITION: "Tour Manager (2015-2016)"
   },
   {
     NAME: "Rafaella Barratt",
@@ -109,7 +109,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Soprano",
     COURSE: "Medicine",
-    POSITION: "Founder, President (2015-2016)",
+    POSITION: "Founder, President (2015-2016)"
   },
   {
     NAME: "Joe Pickin",
@@ -118,7 +118,7 @@ export const alumniInfo = [
     VOICE_PART: "Tenor",
     COURSE: "Mathematics",
     POSITION:
-      "Founder, Musical Director (2014-2016), Treasurer (2015-2016), Group Manager (2016-2017)",
+      "Founder, Musical Director (2014-2016), Treasurer (2015-2016), Group Manager (2016-2017)"
   },
   {
     NAME: "Stanford",
@@ -126,7 +126,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2017",
     VOICE_PART: "Bass",
     COURSE: "Politics",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Dan Mailer",
@@ -135,7 +135,7 @@ export const alumniInfo = [
     VOICE_PART: "Bass",
     COURSE: "Music",
     POSITION:
-      "Tour Manager (2015-2016), Performance Director (2015-2016), Musical Director (2016-2017), Business Manager (2017-2018)",
+      "Tour Manager (2015-2016), Performance Director (2015-2016), Musical Director (2016-2017), Business Manager (2017-2018)"
   },
   {
     NAME: "Sushmi Jay",
@@ -143,7 +143,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2016",
     VOICE_PART: "Soprano",
     COURSE: "Dentistry",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Alice Tyler",
@@ -151,7 +151,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2017",
     VOICE_PART: "Alto",
     COURSE: "Theatre",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Matthew Belsey",
@@ -159,7 +159,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Tenor",
     COURSE: "Mathematics",
-    POSITION: "Business Manager (2016-2017)",
+    POSITION: "Business Manager (2016-2017)"
   },
   {
     NAME: "Eleanor Leaper",
@@ -168,7 +168,7 @@ export const alumniInfo = [
     VOICE_PART: "Soprano",
     COURSE: "Music",
     POSITION:
-      "Tour Manager (2016-2017), Performance Director (2016-2017), Musical Director (2017-2018)",
+      "Tour Manager (2016-2017), Performance Director (2016-2017), Musical Director (2017-2018)"
   },
   {
     NAME: "Charlotte Regan",
@@ -176,7 +176,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "Soprano",
     COURSE: "Film and English",
-    POSITION: "Marketing Manager (2016-2017), Group Manager (2017-2019)",
+    POSITION: "Marketing Manager (2016-2017), Group Manager (2017-2019)"
   },
   {
     NAME: "Yassie Gezer",
@@ -184,7 +184,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Soprano",
     COURSE: "Music",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Rachael Mailer",
@@ -192,7 +192,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "Alto",
     COURSE: "Theatre and Film",
-    POSITION: "Marketing Manager (2017-2018)",
+    POSITION: "Marketing Manager (2017-2018)"
   },
   {
     NAME: "Kathryn Case",
@@ -200,7 +200,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "Alto",
     COURSE: "Film and German",
-    POSITION: "Marketing Manager (2018-2019)",
+    POSITION: "Marketing Manager (2018-2019)"
   },
   {
     NAME: "Charlie Walker",
@@ -208,7 +208,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Alto",
     COURSE: "English",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "James Dempsey",
@@ -216,7 +216,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "VP",
     COURSE: "Computer Science and Mathematics",
-    POSITION: "Web Developer 2021 - present",
+    POSITION: "Web Developer 2021 - present"
   },
   {
     NAME: "Sam Walter",
@@ -225,7 +225,7 @@ export const alumniInfo = [
     VOICE_PART: "Tenor",
     COURSE: "Physics",
     POSITION:
-      "Performance Director (2017-2018), Assistant Performance Director (2018-2019)",
+      "Performance Director (2017-2018), Assistant Performance Director (2018-2019)"
   },
   {
     NAME: "Jonny Simon",
@@ -233,7 +233,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "Baritone",
     COURSE: "Music",
-    POSITION: "Musical Director (2018-2019)",
+    POSITION: "Musical Director (2018-2019)"
   },
   {
     NAME: "Benedict Piers Rowan Harwood",
@@ -241,7 +241,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2019",
     VOICE_PART: "Baritone",
     COURSE: "History",
-    POSITION: "Tour Manager (2017-2018), Business Manager (2018-2019)",
+    POSITION: "Tour Manager (2017-2018), Business Manager (2018-2019)"
   },
   {
     NAME: "Cassie Jackson",
@@ -249,7 +249,7 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Alto",
     COURSE: "French and Spanish",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Bryan Palacio",
@@ -257,16 +257,16 @@ export const alumniInfo = [
     YEAR_LEFT: "2018",
     VOICE_PART: "Tenor",
     COURSE: "Mathematics",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Robbie Armstrong",
     YEAR_JOINED: "2017",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2021",
     VOICE_PART: "Baritone",
     COURSE: "Biology",
     POSITION:
-      "Tour Manager (2018-2019), Group manager (2019-2020), Musical Director (2020-2021)",
+      "Tour Manager (2018-2019), Group Manager (2019-2020), Musical Director (2020-2021)"
   },
   {
     NAME: "Alessia Doyle",
@@ -274,24 +274,25 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Alto",
     COURSE: "French and Italian",
-    POSITION: "Performance Director (2018-2019), Marketing Manager (2020-2021)",
+    POSITION:
+      "Performance Director (2018-2019), Marketing Manager (2020-2021), Group Manager (2021-2022) "
   },
   {
     NAME: "Naomi Adams",
     YEAR_JOINED: "2018",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2021",
     VOICE_PART: "Alto",
     COURSE: "Law",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Rachel Xuereb",
     YEAR_JOINED: "2018",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2021",
     VOICE_PART: "Soprano",
     COURSE: "Sociology",
     POSITION:
-      "Tour Manager (2019-2020), Assistant Performance Director (2019-2020)",
+      "Tour Manager (2019-2020), Assistant Performance Director (2019-2020)"
   },
   {
     NAME: "Emily Hall",
@@ -299,7 +300,7 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Soprano",
     COURSE: "English Literature",
-    POSITION: "Group Manager (2020-2021)",
+    POSITION: "Group Manager (2020-2021)"
   },
   {
     NAME: "Frances McGirr",
@@ -307,7 +308,7 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Soprano",
     COURSE: "Music",
-    POSITION: "Musical Director (2019-2020)",
+    POSITION: "Musical Director (2019-2020)"
   },
   {
     NAME: "Oscar Andrusier",
@@ -315,31 +316,31 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Tenor",
     COURSE: "Medicine",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Maurice Brook",
     YEAR_JOINED: "2018",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2020",
     VOICE_PART: "Tenor",
     COURSE: "Physiological Science",
-    POSITION: "Business Manager (2019-2020)",
+    POSITION: "Business Manager (2019-2020)"
   },
   {
-    NAME: "Jack Prowse",
+    NAME: "JJ Prowse",
     YEAR_JOINED: "2018",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2020",
     VOICE_PART: "Baritone",
     COURSE: "French and German",
-    POSITION: "Performance Director (2019-2020)",
+    POSITION: "Performance Director (2019-2020)"
   },
   {
     NAME: "Himari Takata",
     YEAR_JOINED: "2019",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2020",
     VOICE_PART: "Soprano",
     COURSE: "Pharmacology",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Rosa Witts",
@@ -347,7 +348,8 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Alto",
     COURSE: "Music",
-    POSITION: "Assistant Musical Director (2020-2021)",
+    POSITION:
+      "Assistant Musical Director (2020-2021), Musical Director (2021-2022)"
   },
   {
     NAME: "Jasmine Bingham",
@@ -355,15 +357,15 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Alto",
     COURSE: "Music and Spanish",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Zoe Freeman",
     YEAR_JOINED: "2019",
-    YEAR_LEFT: "-",
+    YEAR_LEFT: "2020",
     VOICE_PART: "Alto",
     COURSE: "History",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Cameron Browne",
@@ -371,7 +373,7 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Tenor",
     COURSE: "Mechanical Engineering",
-    POSITION: "-",
+    POSITION: "Tour Manager (2020-2021) "
   },
   {
     NAME: "Ryan Blyth",
@@ -379,7 +381,7 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Baritone",
     COURSE: "Education Studies",
-    POSITION: "-",
+    POSITION: "-"
   },
   {
     NAME: "Mikey Galvin",
@@ -387,7 +389,7 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "Baritone",
     COURSE: "Law",
-    POSITION: "Marketing Manager (2019-2020)",
+    POSITION: "Marketing Manager (2019-2020), Business Manager (2021-2022)"
   },
   {
     NAME: "Nathan Cave",
@@ -395,6 +397,31 @@ export const alumniInfo = [
     YEAR_LEFT: "-",
     VOICE_PART: "VP",
     COURSE: "Mathematics",
-    POSITION: "Business Manager (2020-2021)",
+    POSITION:
+      "Business Manager (2020-2021), Assistant Musical Director (2021-2022)"
   },
+  {
+    NAME: "Madeleine Morgan",
+    YEAR_JOINED: "2020",
+    YEAR_LEFT: "-",
+    VOICE_PART: "Alto",
+    COURSE: "Law",
+    POSITION: "Marketing Manager (2021-2022) "
+  },
+  {
+    NAME: "Francesca Corr",
+    YEAR_JOINED: "2020",
+    YEAR_LEFT: "-",
+    VOICE_PART: "Soprano",
+    COURSE: "Music",
+    POSITION: "-"
+  },
+  {
+    NAME: "Hamish Klintworth",
+    YEAR_JOINED: "2020",
+    YEAR_LEFT: "-",
+    VOICE_PART: "Baritone",
+    COURSE: "Law",
+    POSITION: "-"
+  }
 ];

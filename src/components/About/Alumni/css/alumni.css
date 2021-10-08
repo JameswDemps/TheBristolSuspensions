@@ -9,6 +9,8 @@
 .alumni-content {
   overflow: scroll;
   background-color: white;
+  width: 90%;
+  padding: 10px;
 }
 
 .alumni-header {

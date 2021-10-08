@@ -30,6 +30,14 @@ p {
   font: normal normal normal 22px/1.4em raleway, sans-serif;
 }
 
+p, a {
+  font-size: 23px;
+}
+
 strong {
   color: rgba(106, 24, 36);
+}
+
+button {
+  font-size: initial !important;
 }

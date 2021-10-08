@@ -16,14 +16,15 @@ export const Contact = () => {
           {strings.CONTACT_TEXT.map((item) => (
             <p>{item}</p>
           ))}
-          <form className="contact-form">
-            <input placeholder="Name *" />
-            <input placeholder="Email *" />
-            <input placeholder="Subject" />
-            <textarea placeholder="Message *" />
-            <button>Send</button>
-          </form>
+          <a href={"mailto:" + strings.CONTACT_EMAIL}>{strings.CONTACT_EMAIL}</a>
         </div>
+          {/*<form className="contact-form">*/}
+          {/*  <input placeholder="Name *" />*/}
+          {/*  <input placeholder="Email *" />*/}
+          {/*  <input placeholder="Subject" />*/}
+          {/*  <textarea placeholder="Message *" />*/}
+          {/*  <button>Send</button>*/}
+          {/*</form>*/}
       </div>
     </div>
   );

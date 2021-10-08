@@ -72,9 +72,9 @@ export const NavBar = () => {
           <a href="https://www.facebook.com/thebristolsuspensions/events/">
             <button className="navbar-link">UPCOMING EVENTS</button>
           </a>
-          <a href="/fringe">
-            <button className="navbar-link">FRINGE</button>
-          </a>
+          {/*<a href="/fringe">*/}
+          {/*  <button className="navbar-link">FRINGE</button>*/}
+          {/*</a>*/}
           <a href="/contact">
             <button className="navbar-link">CONTACT</button>
           </a>
