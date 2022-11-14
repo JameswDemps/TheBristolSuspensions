@@ -13,7 +13,7 @@
     "react-fitty": "^1.0.1",
     "react-native": "^0.63.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^5.0.1",
     "react-spotify-player": "^1.0.4",
     "react-webp-image": "^1.0.7",
     "typescript": "^3.9.7"
